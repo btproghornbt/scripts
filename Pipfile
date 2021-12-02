@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+black = "*"
+
+[scripts]
+format = "black ."
+
+[requires]
+python_version="3.9"
+
+[packages]
+requests = "*"
+tenacity = "*"
